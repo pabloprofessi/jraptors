@@ -1,0 +1,98 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 19:25:14
+project --topLevelPackage com.jraptors.bibliosoft2
+jpa setup --provider HIBERNATE --database POSTGRES
+entity jpa --class ~.domain.Location --testAutomatically 
+field string --fieldName locationname
+field string --fieldName postalcode
+field string --fieldName city
+// [failed] field string --fieldName estate
+field string --fieldName country
+field string --fieldName floor
+field string --fieldName floornumber
+field string --fieldName aditionalinfo
+entity jpa --class ~.domain.ContactInfo --testAutomatically 
+field string --fieldName email
+field string --fieldName phone
+field string --fieldName celphone
+field string --fieldName adressstreet
+field string --fieldName adressnumber
+field string --fieldName floor
+field string --fieldName floornumber
+field string --fieldName aditionalinfo
+field reference --fieldName location --type ~.domain.Location
+entity jpa --class ~.domain.Person --testAutomatically 
+field string --fieldName firstname
+field string --fieldName lastname
+field string --fieldName dni
+field string --fieldName cuil
+field string --fieldName libraryrole
+field string --fieldName reputation
+field string --fieldName librarystate
+field date --fieldName suspenddate --type java.util.Date
+field date --fieldName suspendreason --type java.util.Date
+field date --fieldName reincorporationdate --type java.util.Date
+field date --fieldName creationdate --type java.util.Date
+field string --fieldName usernm
+field string --fieldName passwordkey
+field reference --fieldName contactinfo --type ~.domain.ContactInfo
+field string --fieldName aditionalinfo
+entity jpa --class ~.domain.Publisher --testAutomatically 
+field string --fieldName name
+// [failed] field string --fieldName url
+field string --fieldName aditionalinfo
+entity jpa --class ~.domain.Author --testAutomatically 
+field string --fieldName name
+field string --fieldName url
+field string --fieldName aditionalinfo
+field string --fieldName imageurl
+field string --fieldName country
+entity jpa --class ~.domain.Gender --testAutomatically 
+field string --fieldName name
+entity jpa --class ~.domain.Placement --testAutomatically 
+field string --fieldName bookcase
+field string --fieldName shelve
+entity jpa --class ~.domain.Copy --testAutomatically 
+field reference --fieldName placement --type ~.domain.Placement
+field string --fieldName physicalstate
+field string --fieldName editionyear
+field string --fieldName creationdate
+field string --fieldName deletiondate
+field reference --fieldName creationperson --type ~.domain.Person
+field reference --fieldName deletionperson --type ~.domain.Person
+field string --fieldName comment
+entity jpa --class ~.domain.Book --testAutomatically 
+field string --fieldName isbn
+field set --fieldName authors --type ~.domain.Author
+field set --fieldName genders --type ~.domain.Gender
+field string --fieldName editionnumber
+field string --fieldName editioncountry
+field string --fieldName summary
+field reference --fieldName publisher --type ~.domain.Publisher
+field string --fieldName languagecode
+field string --fieldName valuation
+field string --fieldName price
+field date --fieldName creationdate --type java.util.Date
+field reference --fieldName creationperson --type ~.domain.Person
+// [failed] field string --fieldName comments
+field string --fieldName imageurl
+field set --fieldName copies --type ~.domain.Copy
+entity jpa --class ~.domain.Loan --testAutomatically 
+field reference --fieldName copy --type ~.domain.Copy
+// [failed] field reference --fieldName affiliate --type ~.domain.Personuser
+field reference --fieldName usernm --type ~.domain.Person
+field string --fieldName loantype
+field string --fieldName actualreturndate
+field string --fieldName loandate
+field string --fieldName returnstate
+field string --fieldName comments
+focus --class ~.domain.Gender
+field set --fieldName books --type ~.domain.Book
+web mvc setup
+perform eclipse
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 19:27:59
+focus --class ~.domain.Loan
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-11-04 19:28:38
+focus --class ~.domain.Loan
+field reference --fieldName affiliate --type ~.domain.Person
+exit
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-11-04 19:36:09

@@ -1,0 +1,45 @@
+<aspectj>
+<aspects>
+<aspect name="com.jraptors.bibliosoft2.domain.CopyDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PublisherDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PublisherIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jraptors.bibliosoft2.domain.AuthorDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PublisherIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PersonIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jraptors.bibliosoft2.domain.LoanDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.CopyIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jraptors.bibliosoft2.domain.LoanIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PlacementIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jraptors.bibliosoft2.domain.BookIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jraptors.bibliosoft2.domain.LocationDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.AuthorIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.LocationDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.BookDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.BookDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.LocationIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.GenderDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.AuthorDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.AuthorIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jraptors.bibliosoft2.domain.ContactInfoIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jraptors.bibliosoft2.domain.GenderDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.ContactInfoDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PlacementDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PlacementIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PersonIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.CopyDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.ContactInfoIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.LoanIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.BookIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.GenderIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PlacementDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PersonDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.CopyIntegrationTest_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.ContactInfoDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.LoanDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PersonDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.PublisherDataOnDemand_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.GenderIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.jraptors.bibliosoft2.domain.LocationIntegrationTest_Roo_IntegrationTest"/>
+</aspects>
+</aspectj>
+

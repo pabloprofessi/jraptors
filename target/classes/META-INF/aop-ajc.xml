@@ -1,0 +1,55 @@
+<aspectj>
+<aspects>
+<aspect name="com.jraptors.bibliosoft2.domain.Loan_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Gender_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Placement_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Gender_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Location_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Location_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Book_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Loan_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Author_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Loan_Roo_Jpa_Entity"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Person_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Placement_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Publisher_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Copy_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Loan_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Location_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Publisher_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Placement_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Copy_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Loan_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.ContactInfo_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Author_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Book_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Copy_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Copy_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Book_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Gender_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Publisher_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Location_Roo_Jpa_Entity"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Author_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Book_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Person_Roo_Configurable"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Person_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Person_Roo_Jpa_Entity"/>
+<aspect name="com.jraptors.bibliosoft2.domain.ContactInfo_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Book_Roo_Jpa_Entity"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Publisher_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.ContactInfo_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Placement_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Location_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Placement_Roo_Jpa_Entity"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Gender_Roo_Jpa_Entity"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Author_Roo_Jpa_Entity"/>
+<aspect name="com.jraptors.bibliosoft2.domain.ContactInfo_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Gender_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Publisher_Roo_Jpa_Entity"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Person_Roo_ToString"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Author_Roo_JavaBean"/>
+<aspect name="com.jraptors.bibliosoft2.domain.Copy_Roo_Jpa_Entity"/>
+<aspect name="com.jraptors.bibliosoft2.domain.ContactInfo_Roo_Jpa_Entity"/>
+</aspects>
+</aspectj>
+
